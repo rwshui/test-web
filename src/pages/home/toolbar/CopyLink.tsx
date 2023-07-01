@@ -10,6 +10,14 @@ export const CopyLink = () => {
     <Menu placement="top" offset={10}>
       <MenuTrigger as={CenterIcon} name="copy_link" />
       <MenuContent>
+      <MenuItem
+          colorScheme={colorScheme}
+          onSelect={() => {
+            copySelectedLink2()
+          }}
+        >
+          {t("home.toolbar.link2")}
+        </MenuItem>
         <MenuItem
           colorScheme={colorScheme}
           onSelect={() => {
