@@ -4,7 +4,7 @@ import { CenterIcon } from "./Icon"
 
 export const CopyLink = () => {
   const t = useT()
-  const { copySelectedPreviewPage, copySelectedRawLink } = useCopyLink()
+  const { copySelectedPreviewPage, copySelectedRawLink, copySelectedLink2} = useCopyLink()
   const colorScheme = "neutral"
   return (
     <Menu placement="top" offset={10}>
